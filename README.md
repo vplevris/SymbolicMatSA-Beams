@@ -1,1 +1,1 @@
-# SymbolicFEM-Beams
+# SymbolicMSA-Beams
