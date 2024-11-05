@@ -10,7 +10,7 @@ addpath('examples') % The folder containing the 5 examples
 syms L EI ki wi x real % Define some useful symbolic variables
 syms P P1 P2 a b w real % Define some useful symbolic variables
 
-example_3 % Example to run - Five examples are available
+example_1 % Example to run - Five examples are available
 % Change this to run another input file
 
 NumElements = size(Lengths,1); NumNodes=NumElements+1; % Number of Elements and Nodes
