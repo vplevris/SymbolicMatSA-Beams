@@ -70,9 +70,9 @@ end
 
 %% Analysis Complete, Report the Analysis Results
 UNodes=reshape(Utot,2,NumNodes)'; % Reshape to get NumNodes Rows and 2 columns
-UNodes_Final=simplify(UNodes) % Simplify the Expressions
-FReactions_Final=simplify(FReactions) % Simplify the Expressions
-ElemForces_Final=simplify(ElemForces) % Simplify the Expressions
+UNodes_Final=simplify(UNodes); % Simplify the Expressions
+FReactions_Final=simplify(FReactions); % Simplify the Expressions
+ElemForces_Final=simplify(ElemForces); % Simplify the Expressions
 
 
 %% The Analysis Part and Reporting the Results (on Nodes) are Completed
